@@ -1,47 +1,24 @@
-/* .nav-link{
-    position: relative;
-}
 
-.nav-link::after{
-    content: '';
-    height: 2px;
-    width: 50%;
-    background-color: greenyellow;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: all 0.2s;
-    opacity: 0;
-}
-.nav-link:hover::after{
-opacity: 1;
-} */
+ /* Generic Styling */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+     font-family: 'Roboto', sans-serif;
+     list-style: none;
+     text-decoration: none;
+ }
+ 
+ /* Effect for Button */
 
+ .btn{
+        transition: all .40s;
+        transform: scale(0.9);
+ }
 
-/* @media (max-width: 414px) {
-    .btn {
-      width: 25%;
-      content: 'Click Here';
-      word-wrap: unset;
-    }
-  } */
-
-.dropdown:hover > .dropdown-menu{
-    display: block;
-    border: 2px solid greenyellow;
-}
-
-button{
-    background-color: #FFB81C;
-}
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(./Roboto/Roboto-Black.ttf);
-}
-
-body {
-    font-family: myFirstFont;
-    color: #444444;
-}
-
+ /* Effect for the Card */
+ .card:hover{
+    transition: all .40s;
+    transform: scale(0.9);
+ }

@@ -1,5 +1,5 @@
 
- /* Generic Styling */
+ /* Generic Styling for Body */
  * {
      margin: 0;
      padding: 0;
@@ -11,14 +11,15 @@
  }
  
  /* Effect for Button */
-
  .btn{
         transition: all .40s;
         transform: scale(0.9);
  }
 
+ 
  /* Effect for the Card */
  .card:hover{
     transition: all .40s;
     transform: scale(0.9);
- }
+ 
+}
